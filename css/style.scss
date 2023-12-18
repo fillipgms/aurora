@@ -6,7 +6,6 @@ $branco: #f1f1f1;
 $verde: #5cf2b1;
 $azul: #87ceeb;
 $roxo: #8e57db;
-$size: 1rem;
 
 * {
     margin: 0;
@@ -128,18 +127,13 @@ section {
     width: 30%;
 
     h1 {
-        font-size: 1.875rem;
-        line-height: 2.25rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
         text-align: center;
 
         span {
             font-weight: bold;
             color: $bege;
-        }
-
-        @media screen and (max-width: 768px) {
-            font-size: 1.5rem;
-            line-height: 2rem;
         }
     }
 
@@ -178,22 +172,17 @@ section {
 
         h2 {
             color: $bege;
-            font-size: 1.75rem;
+            font-size: 1.5rem;
             line-height: 2rem;
             font-weight: bold;
             width: 100%;
             text-align: center;
-
-            @media screen and (max-width: 768px) {
-                font-size: 1.5rem;
-                line-height: 2rem;
-            }
         }
 
         span {
             text-align: justify;
-            font-size: 1.125rem;
-            line-height: 1.75rem;
+            font-size: 1rem;
+            line-height: 1.5rem;
             border-left: solid 5px $bege;
             padding: 1rem 1.25rem;
             font-weight: bold;
@@ -203,8 +192,6 @@ section {
 
             @media screen and (max-width: 768px) {
                 border-left: none;
-                font-size: 1rem;
-                line-height: 1.5rem;
             }
         }
 
@@ -257,7 +244,7 @@ section {
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 70%;
+    width: 50%;
 }
 
 #previous,
@@ -307,7 +294,7 @@ section {
 }
 
 .profile {
-    width: 20rem;
+    width: 10rem;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -320,7 +307,7 @@ section {
     div {
         background-color: $bege;
         width: 100%;
-        height: 20rem;
+        height: 10rem;
         position: relative;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
@@ -344,8 +331,7 @@ section {
 
         h3 {
             color: $bege;
-            font-size: 1.75rem;
-            line-height: 2rem;
+
             font-weight: bold;
             display: flex;
             align-items: center;
@@ -362,20 +348,13 @@ section {
                 background-color: $bege;
             }
 
-            @media screen and (max-width: 768px) {
-                font-size: 1.125rem;
-                line-height: 1.75rem;
-            }
+            font-size: 1.125rem;
+            line-height: 1.75rem;
         }
 
         h5 {
-            font-size: 1.125rem;
-            line-height: 1.75rem;
-
-            @media screen and (max-width: 768px) {
-                font-size: 1rem; /* 16px */
-                line-height: 1.5rem;
-            }
+            font-size: 1rem; /* 16px */
+            line-height: 1.5rem;
         }
     }
 
@@ -385,12 +364,12 @@ section {
 }
 
 .active {
-    width: 25rem;
+    width: 15rem;
     z-index: 2;
 
     div {
         background-color: $azul;
-        height: 25rem;
+        height: 15rem;
 
         img {
             width: 100%;
@@ -410,7 +389,7 @@ section {
 #visao {
     background-color: $bege;
     display: flex;
-    height: 50vh;
+    height: 40vh;
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -421,27 +400,18 @@ section {
 
     h2 {
         font-weight: normal;
-        font-size: 1.875rem;
-        line-height: 2.25rem;
 
         span {
             font-weight: bold;
         }
 
-        @media screen and (max-width: 768px) {
-            font-size: 1.125rem; /* 18px */
-            line-height: 1.75rem;
-        }
+        font-size: 1.125rem; /* 18px */
+        line-height: 1.75rem;
     }
 
     p {
-        font-size: 1.5rem; /* 24px */
-        line-height: 2rem;
-
-        @media screen and (max-width: 768px) {
-            font-size: 1rem; /* 16px */
-            line-height: 1.5rem;
-        }
+        font-size: 1rem; /* 16px */
+        line-height: 1.5rem;
     }
 
     div {
@@ -487,31 +457,26 @@ section {
         width: 70%;
         margin: 0 auto;
 
-        font-size: 1.5rem; /* 24px */
-        line-height: 2rem;
         gap: 5rem;
         text-align: justify;
 
         img {
-            height: 30rem;
-            width: 25rem;
             object-fit: cover;
             background-color: $preto;
             border-radius: 25px;
             border: solid 3px $bege;
             padding: 0.5rem;
 
-            @media screen and (max-width: 768px) {
-                width: 100%;
-                height: 10rem;
-            }
+            width: 100%;
+            height: 10rem;
         }
         @media screen and (max-width: 768px) {
             flex-direction: column-reverse;
-            font-size: 1rem; /* 16px */
-            line-height: 1.5rem;
+
             gap: 1rem;
         }
+        font-size: 1rem; /* 16px */
+        line-height: 1.5rem;
     }
     @media screen and (max-width: 768px) {
         padding: 4rem 0 0;
@@ -525,7 +490,7 @@ section {
 
 footer {
     position: relative;
-    height: 20rem;
+    height: 10rem;
 }
 
 .rotate {
