@@ -185,8 +185,8 @@ section {
             text-align: center;
 
             @media screen and (max-width: 768px) {
-                font-size: 1.5rem; /* 24px */
-                line-height: 2rem; /* 32px */
+                font-size: 1.5rem;
+                line-height: 2rem;
             }
         }
 
@@ -203,7 +203,7 @@ section {
 
             @media screen and (max-width: 768px) {
                 border-left: none;
-                font-size: 1rem; /* 16px */
+                font-size: 1rem;
                 line-height: 1.5rem;
             }
         }
